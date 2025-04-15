@@ -1,83 +1,109 @@
 
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 <head>
-  <meta charset="UTF-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Good Angle Golf</title>
-  <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/css/style.css" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="assets/css/main.css" />
 </head>
-<body>
+<body class="is-preload">
+  <div id="wrapper" class="divided">
 
-  <!-- Hero Section -->
-  <section id="hero" class="d-flex flex-column justify-content-center align-items-center text-center" style="height: 100vh;">
-    <div>
-      <h1>Private Club Member Trips, Done Right</h1>
-      <p>Custom warm-weather golf getaways for your members,<br>hosted by you, planned by us.</p>
-      <a href="#contact" class="btn btn-primary mt-3">Start Planning</a>
-    </div>
-  </section>
+    <!-- Hero Section -->
+    <section class="banner style1 orient-left content-align-left image-position-right fullscreen">
+      <div class="content">
+        <h1>Private Club Member Trips, Done Right</h1>
+        <p class="major">Custom warm-weather golf getaways for your members, hosted by you, planned by us.</p>
+        <ul class="actions stacked">
+          <li><a href="#how-it-works" class="button big wide smooth-scroll-middle">Start Planning</a></li>
+        </ul>
+      </div>
+      <div class="image">
+        <img src="assets/images/golf-trip.jpg" alt="" />
+      </div>
+    </section>
 
-  <!-- About Section -->
-  <section id="about" class="container py-5">
-    <h2>About Good Angle Golf</h2>
-    <p>Founded by Mike Snyder, Good Angle Golf handles every detail of your offseason golf trip. You host. We handle the rest.</p>
-  </section>
+    <!-- How It Works -->
+    <section class="spotlight style1 orient-right content-align-left image-position-center" id="how-it-works">
+      <div class="content">
+        <h2>How It Works</h2>
+        <ol>
+          <li>Initial consultation</li>
+          <li>Custom itinerary created</li>
+          <li>Members invited</li>
+          <li>We book everything</li>
+          <li>You travel for free</li>
+        </ol>
+      </div>
+      <div class="image">
+        <img src="assets/images/how-it-works.jpg" alt="" />
+      </div>
+    </section>
 
-  <!-- How It Works -->
-  <section id="how-it-works" class="container py-5 bg-light">
-    <h2>How It Works</h2>
-    <ol>
-      <li>Initial consultation</li>
-      <li>Custom itinerary created</li>
-      <li>Members invited</li>
-      <li>We book everything</li>
-      <li>You travel for free</li>
-    </ol>
-  </section>
+    <!-- Why Pros -->
+    <section class="spotlight style1 orient-left content-align-left image-position-center">
+      <div class="content">
+        <h2>Why Club Pros Choose Us</h2>
+        <ul>
+          <li>You travel for free</li>
+          <li>No pressure or revenue sharing</li>
+          <li>We handle tee times, lodging, logistics</li>
+          <li>You maintain member relationships</li>
+        </ul>
+      </div>
+      <div class="image">
+        <img src="assets/images/why-pros.jpg" alt="" />
+      </div>
+    </section>
 
-  <!-- Why Pros -->
-  <section id="why-pros" class="container py-5">
-    <h2>Why Club Pros Choose Us</h2>
-    <ul>
-      <li>You travel for free</li>
-      <li>No pressure or revenue sharing</li>
-      <li>We handle tee times, lodging, logistics</li>
-      <li>You maintain member relationships</li>
-    </ul>
-  </section>
+    <!-- Destinations -->
+    <section class="spotlight style1 orient-right content-align-left image-position-center">
+      <div class="content">
+        <h2>Destinations</h2>
+        <ul>
+          <li>Kiawah Island – 3 nights, 3 rounds</li>
+          <li>Streamsong – 4 nights, 3 rounds</li>
+          <li>Sea Island – Premium luxury experience</li>
+        </ul>
+      </div>
+      <div class="image">
+        <img src="assets/images/destinations.jpg" alt="" />
+      </div>
+    </section>
 
-  <!-- Destinations -->
-  <section id="destinations" class="container py-5 bg-light">
-    <h2>Sample Destinations</h2>
-    <ul>
-      <li>Kiawah Island – 3 nights, 3 rounds</li>
-      <li>Streamsong – 4 nights, 3 rounds</li>
-      <li>Sea Island – Premium luxury experience</li>
-    </ul>
-  </section>
+    <!-- FAQ -->
+    <section class="wrapper style1 align-center">
+      <div class="inner">
+        <h2>FAQ</h2>
+        <p>Answers to common questions about planning, logistics, and travel perks for club professionals.</p>
+      </div>
+    </section>
 
-  <!-- FAQ -->
-  <section id="faq" class="container py-5">
-    <h2>FAQ</h2>
-    <p>Answers to common questions about planning, logistics, and travel perks for club professionals.</p>
-  </section>
+    <!-- Contact -->
+    <section class="wrapper style1 align-center">
+      <div class="inner medium">
+        <h2>Contact Us</h2>
+        <form method="post" action="https://formspree.io/f/your-form-id">
+          <div class="fields">
+            <div class="field half"><input type="text" name="name" placeholder="Your Name" required /></div>
+            <div class="field half"><input type="email" name="email" placeholder="Your Email" required /></div>
+            <div class="field"><textarea name="message" placeholder="Your Message" rows="6" required></textarea></div>
+          </div>
+          <ul class="actions special">
+            <li><button type="submit" class="button">Send</button></li>
+          </ul>
+        </form>
+      </div>
+    </section>
 
-  <!-- Contact -->
-  <section id="contact" class="container py-5 bg-light">
-    <h2>Contact Us</h2>
-    <form action="https://formspree.io/f/your-form-id" method="POST">
-      <input type="text" name="name" placeholder="Your Name" class="form-control mb-2" required>
-      <input type="email" name="email" placeholder="Your Email" class="form-control mb-2" required>
-      <textarea name="message" placeholder="Your Message" class="form-control mb-2" required></textarea>
-      <button type="submit" class="btn btn-primary">Send</button>
-    </form>
-  </section>
+    <!-- Footer -->
+    <footer class="wrapper style1 align-center">
+      <div class="inner">
+        <p>&copy; Good Angle Golf 2025. Built with the Story template from HTML5 UP.</p>
+      </div>
+    </footer>
 
-  <footer class="text-center py-4">
-    <p>&copy; 2025 Good Angle Golf</p>
-  </footer>
-
+  </div>
 </body>
 </html>
