@@ -8601,6 +8601,12 @@ input, select, textarea {
 			#wrapper.divided > .invert:first-child {
 				box-shadow: none !important;
 			}
-			ul, ul li {
+			ul, ol {
 				text-align: left !important;
-			  }		
+				padding-left: 1.5em; /* Adjust as needed */
+				margin-left: 0;
+			  }
+			  
+			  ul li, ol li {
+				text-align: left !important;
+			  }
